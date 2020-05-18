@@ -26,7 +26,7 @@ code {
     monospace;
 }
 
-button {
+button, .resetButton {
   display: inline-block;
   border: none;
   padding: 1rem 2rem;
@@ -55,4 +55,11 @@ button:focus {
 
 button:active {
   transform: scale(0.99);
+}
+
+.dataInput {
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 25px;
 }
