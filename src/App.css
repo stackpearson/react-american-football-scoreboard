@@ -109,13 +109,17 @@
   width: 50%;
   margin: 0 auto;
   display: flex;
-  justify-content: space-around;
+  text-align: center;
+  align-items: center;
 }
 
 .homeButtons__touchdown,
 .homeButtons__fieldGoal,
 .awayButtons__touchdown,
-.awayButtons__fieldGoal {
+.awayButtons__fieldGoal,
+.resetButton
+{
   margin: 1rem;
   border-radius: 4px;
 }
+
